@@ -38,7 +38,8 @@ python3 maquina_venda.py
 
 ## 📸 Preview
 
-<img width="180" height="400" alt="shot-2026-02-03_19-40-34" src="https://github.com/user-attachments/assets/d29f2fc7-8648-43a5-83bc-490fcc821928" />
+<img width="180" height="400" alt="shot-2026-02-03_19-40-34" src="https://github.com/user-attachments/assets/d29f2fc7-8648-43a5-83bc-490fcc821928" /><br>
+*Main interface of the vending machine simulator*
 
 ## 💡 How It Works
 
