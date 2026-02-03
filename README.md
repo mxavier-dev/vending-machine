@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🛒 Vending Machine
 
 A simple, modular vending machine application that models *product inventory*, *purchase flow*, *payment handling*, and *change dispensing*. This repository contains the core logic and tests needed to run and extend a vending machine simulation or a real-world integration.
