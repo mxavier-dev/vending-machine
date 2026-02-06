@@ -30,23 +30,25 @@ git clone https://github.com/Matheus-de-Freitas-Xavier/vending-machine
 pip install customtkinter
 ```
 3. Run the project:
+
+*(The example uses the English version, but if you are using the Portuguese version, copy the command below and replace `EN` to `PT-BR`.)*
 ```bash
-python3 maquina_venda.py
+python3 vending_machine_EN.py
 ```
 > If display a error *'python3 not found'* make sure the python is installed.
 > But if the error persists replace `python3` to `python`
 
 ## 📸 Preview
-
-<img width="180" height="400" alt="shot-2026-02-03_19-40-34" src="https://github.com/user-attachments/assets/d29f2fc7-8648-43a5-83bc-490fcc821928" /><br>
+<img width="180" height="400" alt="shot-2026-02-06_17-16-25" src="https://github.com/user-attachments/assets/7912b04f-c5b2-49f2-86be-137174c895cf" /><br>
 *Main interface of the vending machine simulator*
 
 ## 💡 How It Works
 
 - **Select Products**: Click on the product buttons to add items to your cart.
-- **Manage Cart**: Use the "-1" buttons to remove items from your cart.
+- **Manage Cart**: Use the "-1" buttons
+ to remove items from your cart.
 - **Enter Payment**: Type the amount of money you're inserting into the machine.
-- **Complete Purchase**: Click "FINALIZAR COMPRA" (Complete Purchase) to finalize your order and receive your change (if applicable).
+- **Complete Purchase**: Click "FINALIZE PURCHASE" (Complete Purchase) to finalize your order and receive your change (if applicable).
 
 ## 📫 Contact
 
