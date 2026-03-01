@@ -185,18 +185,18 @@ def vending_machine():
 
                     # Format the change output message
                     output += '\nChange made up of:\n'
-                    output += change_exit('$100 bill', bill_100)
-                    output += change_exit('$50 bill', bill_50)
-                    output += change_exit('$20 bill', bill_20)
-                    output += change_exit('$10 bill', bill_10)
-                    output += change_exit('$5 bill', bill_5)
-                    output += change_exit('$2 bill', bill_2)
-                    output += change_exit('$1 bill', bill_1)
-                    output += change_exit('50-cent coin', coin_50)
-                    output += change_exit('25-cent coin', coin_25)
-                    output += change_exit('10-cent coin', coin_10)
-                    output += change_exit('5-cent coin', coin_5)
-                    output += change_exit('1-cent coin', coin_1)
+                    output += change_exit('$100', bill_100)
+                    output += change_exit('$50', bill_50)
+                    output += change_exit('$20', bill_20)
+                    output += change_exit('$10', bill_10)
+                    output += change_exit('$5', bill_5)
+                    output += change_exit('$2', bill_2)
+                    output += change_exit('$1', bill_1)
+                    output += change_exit('50-cent', coin_50)
+                    output += change_exit('25-cent', coin_25)
+                    output += change_exit('10-cent', coin_10)
+                    output += change_exit('5-cent', coin_5)
+                    output += change_exit('1-cent', coin_1)
                     mb.showinfo('Your change', output)
 
                     # Reset the cart and entry field
