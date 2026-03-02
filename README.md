@@ -18,13 +18,7 @@ A simple, modular vending machine application that models *product inventory*, *
 <img width="230" height="400" alt="shot-2026-02-06_17-16-25" src="https://github.com/user-attachments/assets/7912b04f-c5b2-49f2-86be-137174c895cf" /><br>
 *Main interface of the vending machine simulator*
 
-## 📥 Installation
-
-### ⚙️ Application
-
-You can download the ready-to-use executable in the [Releases](https://github.com/mxavier-dev/vending-machine/releases/tag/v.1.1) section. *(Only for linux)*
-
-### 🐍 Code
+## 🐍 Code
 1. Clone the repository:
 ```bash
 git clone https://github.com/mxavier-dev/vending-machine
