@@ -18,13 +18,15 @@ A simple, modular vending machine application that models *product inventory*, *
 <img width="230" height="400" alt="shot-2026-02-06_17-16-25" src="https://github.com/user-attachments/assets/7912b04f-c5b2-49f2-86be-137174c895cf" /><br>
 *Main interface of the vending machine simulator*
 
-## 📥 Installation
+## 💡 How It Works
 
-### ⚙️ Application
+- **Select Products**: Click on the product buttons to add items to your cart.
+- **Manage Cart**: Use the "-1" buttons
+ to remove items from your cart.
+- **Enter Payment**: Type the amount of money you're inserting into the machine.
+- **Complete Purchase**: Click "FINALIZE PURCHASE" to finalize your order and receive your change (if applicable).
 
-You can download the ready-to-use executable in the [Releases](https://github.com/mxavier-dev/vending-machine/releases/tag/v.1.1) section. *(Only for linux)*
-
-### 🐍 Code
+## 🐍 Code
 1. Clone the repository:
 ```bash
 git clone https://github.com/mxavier-dev/vending-machine
@@ -41,14 +43,6 @@ python3 vending_machine_EN.py
 ```
 > If display a error *'python3 not found'* make sure the python is installed.
 > But if the error persists replace `python3` to `python`
-
-## 💡 How It Works
-
-- **Select Products**: Click on the product buttons to add items to your cart.
-- **Manage Cart**: Use the "-1" buttons
- to remove items from your cart.
-- **Enter Payment**: Type the amount of money you're inserting into the machine.
-- **Complete Purchase**: Click "FINALIZE PURCHASE" to finalize your order and receive your change (if applicable).
 
 ## 📫 Contact
 
