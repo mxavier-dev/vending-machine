@@ -28,6 +28,8 @@ def only_number(char):
         return True
     if char.count(',') > 1:  # Only one comma allowed (for decimal values)
         return False
+    if char[0] == ',':  # Do not allow the comma to be the first character
+        return False
     if all(c in '0123456789,' for c in char):  # Check if all characters are numbers or commas
         return True
     return False

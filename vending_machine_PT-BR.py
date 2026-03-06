@@ -18,14 +18,16 @@ for i in range(len(produto_nome)):
 
 def so_numero(char):
     """
-    Valida se o caractere inserido é um número ou vírgula (para valores decimais).
+    Valida a entrada do campo de valor em dinheiro, permitindo apenas números e vírgulas.
     Args:
-        char (str): Caractere a ser validado.
+         char (str): O valor atual do campo de entrada.
     Returns:
-        bool: True se o caractere for válido, False caso contrário.
+        bool: True se a entrada for válida, False caso contrário.
     """
     if char == '':
         return True
+    if char[0] == ',': # Não permite que a vírgula seja o primeiro caractere
+        return False  
     if char.count(',') > 1:  # Permite apenas uma vírgula (para valores decimais)
         return False
     if all(c in '0123456789,' for c in char):  # Verifica se todos os caracteres são números ou vírgulas
